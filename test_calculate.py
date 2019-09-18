@@ -15,7 +15,7 @@ def test_add(a, b, expected):
 
 
 
-def test_sub(a, b, expected):
-    from calculate import sub
-    result = sub(a, b)
-    assert result == pytest.approx(expected)
+#def test_sub(a, b, expected):
+#    from calculate import sub
+#    result = sub(a, b)
+#    assert result == pytest.approx(expected)
